@@ -9,31 +9,32 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 ---
 
 <hr>
-
+<b>Note:- Above images are only for reference.<b><hr>
 ### Features:
 
 1. User login for student and class teacher.
 
 -  Student can see only his assignments and announcements.(use permissions and authentication)
--  Class teacher can create class and add students in that class.
+-  Teacher can register class and add students in that class.
+-  Student can login via email and password.
 
 2. Assignment
 
 - Teacher can Create, Delete and Get all assignments that are assigned by him.
-- If a teacher add assignment in a class then it must be accessible for all students of same class.
-- Students can solve assignement and upload that in pdf/jpg format.
+- If a teacher add assignment  then it must be accessible for all students of same class.
+- Students should be able to upload solutions in pdf/jpg format.
 - Teacher can check assignment and mark them as completed.
 
 3. Announcements <br>
 
-- A teacher can add announcement(e.g: holidays, events etc).
+- Teacher can make  announcement(e.g: holidays, events etc).
 - That announcement will be shown for every student of a class.
 
 4. Authentication
 
 - Login (mandatory)
 - Logout(optional)
-- Signup (optional)
+- Signup (mandatory)
 
 <hr>
 
@@ -47,7 +48,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 ### Coding Guidelines
 
-- For design ideas and functionality: Please look at https://outlook.live.com/ or any other Email Application.
+- For design ideas and functionality: Please look at https://schoofi.com/ or any other Email Application.
 - Focus on the completion of the features.
 - You will be evaluated on a **WORKING PROTOTYPE** for the following:
   - UI & design
