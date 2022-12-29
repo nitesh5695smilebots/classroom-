@@ -48,7 +48,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 ### Coding Guidelines
 
-- For design ideas and functionality: Please look at https://schoofi.com/ or any other Email Application.
+- For design ideas and functionality: Please look at https://schoofi.com/ or any other class management app.
 - Focus on the completion of the features.
 - You will be evaluated on a **WORKING PROTOTYPE** for the following:
   - UI & design
