@@ -1,113 +1,60 @@
-
-# Classroom API using DRF
-
-Class Management site
+# class management webapp using Spring boot + Angular + postgresql or mysql 
 
 
+Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **website** for a **Class Management** site in which you are free to play with as much as possible your sample data.
+
+<img src="class_mng1.png" />
+<img src="classmng2.png" />
+
+---
+
+<hr>
+
+### Features:
+
+1. User login for student and class teacher.
+
+- A student can see only his assignments and announcements.(use permissions and authentication)
+- A class teacher can create class and add students in that class.
+
+2. Assignment
+
+- A teacher can Create, Delete and Get all assignments that are assigned by him.
+- If a teacher add assignment in a class then it must be accessible for all students of same class.
+- students can solve assignement and upload that in pdf/jpg format.
+- Teacher can check assignment and mark them as completed.
+
+3. Announcements <br>
+
+- A teacher can add announcement(e.g: holidays, events etc).
+- That announcement will be shown for every student of a class.
+
+4. Authentication
+
+- Login (mandatory)
+- Logout(optional)
+- Signup (optional)
+
+<hr>
+
+### Coding Guidelines
+- **fork** current problem repository, and make it **private**.
+- Brownie points to deployed webapps (If you can, but not mandatory).
+- **Add `@divyansh420` as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.**
 
 
-## API Reference
+<hr>
 
-#### Get classroom
+### Coding Guidelines
 
-```http
-  GET /classroom       (ReadOnly For Both of them)
-```
-```http
-  POST  or PUT or DELETE /classroom     (For Teachers)
-```
+- For design ideas and functionality: Please look at https://outlook.live.com/ or any other Email Application.
+- Focus on the completion of the features.
+- You will be evaluated on a **WORKING PROTOTYPE** for the following:
+  - UI & design
+  - Modularity of Code
+  - Data Structures used
+  - Logic and cleanliness of code.
+  - Completeness.
+- Please ask us for any hurdle in your problem assignment.
 
-|  Description(Respectively)                |
-| :------------------------- |
-| Get list of all the students and techer from the classroom |
-| CRUD operation available for the techer from the classroom |
-
-#### Get classroom user
-
-```http
-  GET /classroom/${id}       (ReadOnly For Both of them)
-```
-```http
-  POST  or PUT or DELETE /classroom/${id}     (For Teachers)
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Get each user detail in that classroom |
-
-
-
-#### Get created assignment list
-
-```http
-  GET /created-assignment       (ReadOnly For Both of them)
-```
-```http
-  POST or PUT or DELETE /created-assignment     (For Teachers)
-```
-
-
-|  Description                |
-| :------------------------- |
-| Get list of all the task from the created-assignment |
-
-#### Get created-assignment by ID
-
-```http
-  GET /created-assignment/${id}       (ReadOnly For Both of them)
-```
-```http
-  POST or PUT or DELETE /created-assignment/${id}     (For Teachers)
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Get each specific task |
-
-
-
-#### Get completed assignment list
-
-```http
-  GET /completed-assignment       (ReadOnly For Both of them)
-```
-```http
-  POST or PUT or DELETE /completed-assignment     (For Teachers)
-```
-
-
-|  Description                |
-| :------------------------- |
-| Get list of all the task from the completed-assignment |
-
-#### Get completed-assignment by ID
-
-```http
-  GET /completed-assignment/${id}       (ReadOnly For Both of them)
-```
-```http
-  POST or PUT or DELETE /completed-assignment/${id}     (For Teachers)
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Get each specific completed task |
-
-
-
-
-
-#### Get notice list (holidays, events)
-
-```http
-  GET /notice       (ReadOnly For Both of them)
-```
-```http
-  POST or PUT or DELETE /notice     (For Teachers)
-```
-
-
-|  Description(Respectively)                |
-| :------------------------- |
-| Get list of all notice created by teachers |
-| For the teacher CRUD operation available in notice |
+<b>Note: <b> please use sqlite database and tables should be related to other tables.
