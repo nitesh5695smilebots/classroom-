@@ -14,14 +14,14 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 1. User login for student and class teacher.
 
-- A student can see only his assignments and announcements.(use permissions and authentication)
-- A class teacher can create class and add students in that class.
+-  Student can see only his assignments and announcements.(use permissions and authentication)
+-  Class teacher can create class and add students in that class.
 
 2. Assignment
 
-- A teacher can Create, Delete and Get all assignments that are assigned by him.
+- Teacher can Create, Delete and Get all assignments that are assigned by him.
 - If a teacher add assignment in a class then it must be accessible for all students of same class.
-- students can solve assignement and upload that in pdf/jpg format.
+- Students can solve assignement and upload that in pdf/jpg format.
 - Teacher can check assignment and mark them as completed.
 
 3. Announcements <br>
@@ -37,7 +37,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 <hr>
 
-### Coding Guidelines
+
 - **fork** current problem repository, and make it **private**.
 - Brownie points to deployed webapps (If you can, but not mandatory).
 - **Add `@divyansh420` as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.**
@@ -57,4 +57,4 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
   - Completeness.
 - Please ask us for any hurdle in your problem assignment.
 
-<b>Note: <b> please use sqlite database and tables should be related to other tables.
+
