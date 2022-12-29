@@ -9,7 +9,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 ---
 
 <hr>
-<b>Note:- Above images are only for reference.<b><hr>
+<b>Note:- Above images are only for reference.</b><hr>
 ### Features:
 
 1. User login for student and class teacher.
