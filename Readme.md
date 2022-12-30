@@ -41,7 +41,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 - **fork** current problem repository, and make it **private**.
 - Brownie points to deployed webapps (If you can, but not mandatory).
-- **Add `@divyansh420` as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.**
+- **Add `@divyansh420` and `nitesh5695smilebots` as collaborators while intializing repository in github. and follow the given timeline instructions from your mail.**
 
 
 <hr>
